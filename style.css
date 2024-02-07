@@ -50,9 +50,10 @@ nav {
 
 .nav-search-category {
   display: flex;
+  gap: 5px;
   align-items: center;
   padding: 10px 20px;
-  background-color: #e5e5e5;
+  background: #e5e5e5;
   border-radius: 4px 0 0 4px;
 }
 
@@ -60,7 +61,7 @@ nav {
   border: none;
   outline: none;
   padding-left: 20px;
-  width: 100;
+  width: 100%;
 }
 
 .nav-search-icon {
@@ -68,4 +69,47 @@ nav {
   padding: 8px;
   background: #ffd64f;
   border-radius: 0 4px 4px 0;
+}
+
+.nav-language {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  font-weight: 600;
+  margin-left: 15px;
+}
+
+.nav-text {
+  margin-left: 15px;
+}
+
+.nav-text p {
+  font-size: 10px;
+}
+
+.nav-text h1 {
+  font-size: 14px;
+}
+
+.nav-cart {
+  display: flex;
+  align-items: center;
+  margin: 0px 15px;
+}
+
+.nav-bottom {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding: 8px 20px;
+  background: #232f3e;
+  color: #ffff;
+  font-size: 15px;
+}
+
+.nav-bottom div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: 500;
 }
